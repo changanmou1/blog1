@@ -46,14 +46,14 @@ export const siteConfig: SiteConfig = {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
 			desktop: [
-				"/assets/desktop-banner/d1.webp",
-				"/assets/desktop-banner/d2.webp",
-				"/assets/desktop-banner/d3.webp",
-				"/assets/desktop-banner/d4.webp",
-				"/assets/desktop-banner/d5.webp",
-				"/assets/desktop-banner/d6.webp",
-				"/assets/desktop-banner/d7.webp",
-				"/assets/desktop-banner/d8.webp",
+				"/assets/desktop-banner/1.jpg",
+				"/assets/desktop-banner/2.jpg",
+				"/assets/desktop-banner/3.jpg",
+				"/assets/desktop-banner/4.jpg",
+				"/assets/desktop-banner/5.jpg",
+				"/assets/desktop-banner/6.jpg",
+				"/assets/desktop-banner/7.jpg",
+				"/assets/desktop-banner/8.jpg",
 			], // 桌面横幅图片
 			mobile: [
 				"/assets/mobile-banner/m1.webp",
