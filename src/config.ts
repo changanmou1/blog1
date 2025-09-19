@@ -245,9 +245,9 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/avatar.png", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
-	name: "Mizuki",
-	bio: "The world is big, you have to go and see",
+	avatar: "assets/images/avatar.jpg", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
+	name: "长安某",
+	bio: "我不唱声嘶力竭的情歌",
 	links: [
 		{
 			name: "Bilibli",
@@ -255,9 +255,9 @@ export const profileConfig: ProfileConfig = {
 			url: "https://space.bilibili.com/351494831",
 		},
 		{
-			name: "Gitee",
-			icon: "mdi:git",
-			url: "https://gitee.com/matsuzakayuki",
+			name: "Tiktok",
+			icon: "fa6-brands:tiktok",
+			url: "https://www.douyin.com/user/MS4wLjABAAAAnRVVttvMpU13lpeJSCW6OBcf_KsJ_0SK2HmUqimpA30?enter_from=personal_homepage&enter_method=fans_list&from_tab_name=main&is_search=0&list_name=fans&nt=0&tab_name=fans_lish",
 		},
 		{
 			name: "GitHub",
