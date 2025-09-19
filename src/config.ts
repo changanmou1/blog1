@@ -86,13 +86,13 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title: "Beautiful Mizuki!", // 主页横幅主标题
+			title: "长安某的博客!", // 主页横幅主标题
 
 			subtitle: [
-				"A Showcase Demo Site",
-				"Carousel Highlight: Innovation",
-				"Carousel Focus: User Experience",
-				"Carousel Spot: Core Advantages",
+				"全新版本",
+				"记录生活",
+				"记录旅行",
+				"记录一切",
 			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
@@ -181,21 +181,21 @@ export const navBarConfig: NavBarConfig = {
 			children: [
 				{
 					name: "GitHub",
-					url: "https://github.com/matsuzaka-yuki/Mizuki",
+					url: "https://github.com/changanmou1",
 					external: true,
 					icon: "fa6-brands:github",
 				},
 				{
 					name: "Bilibili",
-					url: "https://space.bilibili.com/701864046",
+					url: "https://space.bilibili.com/351494831",
 					external: true,
 					icon: "fa6-brands:bilibili",
 				},
 				{
-					name: "Gitee",
-					url: "https://gitee.com/matsuzakayuki/Mizuki",
+					name: "Tiktok",
+					url: "https://www.douyin.com/user/MS4wLjABAAAAnRVVttvMpU13lpeJSCW6OBcf_KsJ_0SK2HmUqimpA30?enter_from=personal_homepage&enter_method=fans_list&from_tab_name=main&is_search=0&list_name=fans&nt=0&tab_name=fans_lish",
 					external: true,
-					icon: "mdi:git",
+					icon: "fa6-brands:tiktok",
 				},
 			],
 		},
@@ -235,7 +235,7 @@ export const navBarConfig: NavBarConfig = {
 					icon: "material-symbols:psychology",
 				},
 				{
-					name: "Timeline",
+					name: "时间线",
 					url: "/timeline/",
 					icon: "material-symbols:timeline",
 				},
@@ -252,7 +252,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Bilibli",
 			icon: "fa6-brands:bilibili",
-			url: "https://space.bilibili.com/701864046",
+			url: "https://space.bilibili.com/351494831",
 		},
 		{
 			name: "Gitee",
@@ -262,7 +262,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/matsuzaka-yuki",
+			url: "https://github.com/changanmou1",
 		},
 		{
 			name: "Discord",
@@ -477,7 +477,7 @@ export const pioConfig: import("./types/config").PioConfig = {
 		home: "Click here to go back to homepage!", // 首页提示
 		skin: ["Want to see my new outfit?", "The new outfit looks great~"], // 换装提示
 		close: "QWQ See you next time~", // 关闭提示
-		link: "https://github.com/matsuzaka-yuki/Mizuki", // 关于链接
+		link: "https://github.com/changanmou1/blog1", // 关于链接
 	},
 };
 
