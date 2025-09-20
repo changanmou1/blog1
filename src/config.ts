@@ -88,12 +88,7 @@ export const siteConfig: SiteConfig = {
 			enable: true, // 在主页显示自定义文本
 			title: "长安某的博客!", // 主页横幅主标题
 
-			subtitle: [
-				"全新版本",
-				"记录生活",
-				"记录旅行",
-				"记录一切",
-			],
+			subtitle: ["全新版本", "记录生活", "记录旅行", "记录一切"],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
 
@@ -291,15 +286,15 @@ export const expressiveCodeConfig: ExpressiveCodeConfig = {
 };
 
 export const commentConfig: CommentConfig = {
-	enable: false, // 启用评论功能。当设置为 false 时，评论组件将不会显示在文章区域。
+	enable: true, // 启用评论功能。当设置为 false 时，评论组件将不会显示在文章区域。
 	twikoo: {
 		envId: "https://twikoo.vercel.app",
-		lang: "en", // 设置 Twikoo 评论系统语言为英文
+		lang: "zh_CN", // 设置 Twikoo 评论系统语言为英文
 	},
 };
 
 export const announcementConfig: AnnouncementConfig = {
-	title: "Announcement", // 公告标题
+	title: "公告", // 公告标题
 	content: "Welcome to my blog! This is a sample announcement.", // 公告内容
 	closable: true, // 允许用户关闭公告
 	link: {
